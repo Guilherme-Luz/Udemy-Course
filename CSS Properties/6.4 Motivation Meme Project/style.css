@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+
+    color: white;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+img{
+    width: 100%;
+    border: 5px solid white;
+}
+
+.motivationalPhrase{    /* h1 relacionado à frase motivacional */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
