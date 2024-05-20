@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header and Footer configurations */
+.pageHeader{
+    background-color: #e4f9f5;
+    height: 85vh;
+}
+.pageFooter{
+    background-color: #e4f9f5;
+    margin-top: 50px;
+}
+
+/* Text configurations */
+.textHeader{
+    text-align: center;
+    margin-top: 150px;
+    color: #66bfbf;
+}
+.textHeader h1{
+    font-size: 5.6rem;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+}
+.textHeader p{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* NavBar configurations */
+.nav-item > a {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Clouds and Mountain configurations */
+.cloud1{
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+.cloud2{
+    position: absolute;
+    top: 450px;
+    left: 400px;
+}
+.mountain{
+    position: absolute;
+    top: 45.8%;
+    left: 36%;
+}
+
+/* Apresentation configurations */
+
+.apresentation{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.apresentation img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 10px;
+}
+.apresentation h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+}
+.apresentation p{
+    color: #40514e;
+    font-family: "Merriweather", serif;
+
+    width: 30%;
+    margin: auto;
+
+    line-height: 2;
+}
+
+/* Skills configurations */
+
+.skillsTitle h3{
+    font-family: "Montserrat", sans-serif;
+    color: #217a7a;
+}
+
+.skillsTitle > p{
+    padding-top: 5px;
+    color: #40514e;
+
+    font-family: "Merriweather", serif;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* Contact configurations */
+
+.contactForm{
+    text-align: center;
+    justify-content: center;
+}
+
+.contactForm h3{
+    color: #217a7a;
+}
+.contactForm p{
+    color: #40514e;
+
+    font-family: "Merriweather", serif;
+    line-height: 2;
+
+    width: 40%;
+    margin: 25px auto 25px auto;
+}
+
+.dotsBreakRow{
+    border: 12px dotted #00ffff80;
+    border-bottom: none;
+    width: 6%;
+    margin: 50px auto 50px auto;
+}
